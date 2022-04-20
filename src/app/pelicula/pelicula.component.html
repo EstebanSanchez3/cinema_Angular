@@ -1,0 +1,23 @@
+<main class="M_Cuerpo">
+    <section class="M_Caja_Horizontal">
+        <div class="M_Peliculas">
+            <div>
+                <img class="M_Foto_Poster" src={{pelicula.imagen}} />
+            </div>
+            <div class="M_Caja_Texto">
+                <div class="M_Texto_Titulo">
+                    <span>{{pelicula.titulo}}</span>
+                </div>
+                <div class="M_Texto_Anio">
+                    <span th>{{pelicula.anio_estreno}}</span>
+                </div>
+                <div class="M_Texto_Sinopsis">
+                    <span>{{ pelicula.sinopsis}}</span>
+                </div>
+            </div>
+            <div>
+                <video controls class="M_Trailer" src={{pelicula.video}}></video>
+            </div>
+        </div>
+    </section>
+</main>

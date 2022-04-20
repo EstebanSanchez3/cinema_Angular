@@ -1,0 +1,95 @@
+/*----------------------- COMIENZO MAIN*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+.M_Cuerpo {
+    position: relative;
+}
+
+.M_Caja_Horizontal {
+    flex-flow: row;
+    display: inline-flex;
+    /*float: left;*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-around;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    background-color: black;
+    border-style: solid ;
+    border-color: white;
+    border-top-width: 5px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+    border-left-width: 0px;
+}
+
+.M_Peliculas {
+    padding: 10px ;
+    flex-flow: column ;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 20px;
+}
+
+.M_Foto_Poster {
+    height: 400px;
+    width: 250px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;  
+}
+
+.M_Caja_Texto {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.M_Texto_Titulo{
+    font-family: 'Nova Mono', monospace;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    text-decoration: underline overline;
+    text-decoration-color: rgb(79, 69, 69) ;
+}
+
+.M_Texto_Anio{
+    font-family: 'Nova Mono', monospace;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: rgb(79, 69, 69) ;
+}
+
+.M_Texto_Sinopsis {
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    /*font-weight: bold;*/
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.M_Trailer {
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 5px;
+    border-left-width: 2px;
+}
+
